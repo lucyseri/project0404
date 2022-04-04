@@ -1,0 +1,31 @@
+/*footer*/
+.footer{
+  background-color: #ffffff;
+}
+.footer::before{
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #9c9c9c;
+}
+.footer .inner-footer{
+  display: flex;
+  justify-content: center;
+}
+.footer .inner-footer .fcon{
+  flex: 0 1 1200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .inner-footer .fcon p{
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+.footer .inner-footer .fcon p a{
+  color: rgb(92, 177, 112);
+  text-decoration: line-through;
+  text-align: center;
+}
